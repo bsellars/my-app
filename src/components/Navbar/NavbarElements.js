@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
   background: #fff;
-  height: 110px;
+  height: 100px;
   display: flex;
   justify-content: space-between;
   padding: 0.5rem calc((100vw - 1000px) / 2);
@@ -24,7 +24,7 @@ export const NavLink = styled(Link)`
   cursor: pointer;
   
   &.active {
-    color: #15cdfc;
+    color: orangered;
   }
 `;
 
