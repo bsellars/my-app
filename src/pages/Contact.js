@@ -2,14 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div
-    style={{
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      height: '90vh'
-    }}
-    >
+    <div>
     <h1>Contacts</h1>
     
     </div>

@@ -1,16 +1,13 @@
 import React from 'react'
+import Player from '../components/audioPlayer'
 
 const Home = () => {
   return (
-    <div
-    style={{
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      height: '90vh'
-    }}
-    >
-    <h1>Home</h1>
+    <div className='home'>
+    <h1>Tŝilhqot’in Radio</h1>
+    <div>
+    <Player />
+    </div>
     
     </div>
   

@@ -5,6 +5,9 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(180deg, rgba(252,8,0,255), rgba(255,251,119,255));
+  background-image: linear-gradient(to right, rgba(252,8,0,255), rgba(255,251,119,255));
 }
 
+.home {
+  
+}
