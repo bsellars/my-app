@@ -7,6 +7,7 @@ import About from './pages/about';
 import Stream from './pages/Stream';
 import Links from './pages/Links';
 import Contact from './pages/Contact';
+import { FooterContainer } from './containers/footer'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/Links" element={<Links />}/>
             <Route path="/contactUs" element={<Contact />}/>
         </Routes>
+          <FooterContainer />
     </Router>
   );
 };
