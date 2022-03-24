@@ -5,11 +5,22 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(to right, rgba(252,8,0,255), rgba(255,251,119,255));
+  background-image: url(https://www.tsilhqotin.ca/wp-content/uploads/2021/08/tsilhqotin_hillside-scaled.jpg);
 }
 
-.home {
+.home, .stream, .links, .contact, .about, .funders {
+  padding: 0;
+  margin: 0;
   text-align: center;
+  height: calc( 100vh - 135px)
+}
+
+.about {
+  color: white;
+}
+
+.funders {
+  color: #fff;
 }
 
 html, body {
@@ -18,4 +29,19 @@ html, body {
   padding: 0;
   /* position: relative;
   top: 300px; */
+}
+
+a{
+  text-decoration: none;
+  color: lightgray;
+}
+
+a:hover {
+  color: white;
+  transition: 200ms ease-in;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 10px;
 }

@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    padding: 80px 60px;
-    background: radial-gradient(circle, rgba(92, 39, 251, 1) 0%, rgba(112, 71, 247, 1) 100%);
+    padding: 60px 50px;
+    background-image: linear-gradient(to top, rgba(252,8,0,255), rgba(255,251,119,255));
 `
 
 export const Wrapper = styled.div`
@@ -31,20 +31,20 @@ export const Row = styled.div`
 ` 
 
 export const Link = styled.div`
-    color: #fff;
+    color: #000;
     margin-bottom: 20px;
     font-size: 18px;
     text-decoration: none;
 
     &:hover {
-        color: #ff9c00;
+        color: #fff;
         transition: 200ms ease-in;
     }
 `
 
 export const Titles = styled.div`
     font-size: 24px;
-    color: #fff;
+    color: #000;
     margin-bottom: 40px;
     font-weight: bold;
 ` 
