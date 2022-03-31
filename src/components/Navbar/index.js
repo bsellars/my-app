@@ -11,6 +11,7 @@ import {
 const Navbar = () => {
   return (
     <>
+    <div className='backDrop'>
      <Nav className='navbar'>
        <NavLink to="/">
          <img height={120} src='https://www.tsilhqotin.ca/wp-content/uploads/2022/03/tsilhqotin_radio-removebg-preview-1.png' alt='TNG Radio'/><Bars />
@@ -40,6 +41,7 @@ const Navbar = () => {
          <NavBtnLink to="/signin">Sign In</NavBtnLink>
        </NavBtn>
      </Nav>   
+     </div>
     </>
   );
 };

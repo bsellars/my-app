@@ -1,13 +1,9 @@
 import React from 'react'
 
-const Links = () => {
+export default function Links() {
   return (
-    <div className='links'>
-    <h1>Links</h1>
-    
+    <div className="links">
+      <h1>hi</h1>
     </div>
-  
-    );
-};
-
-export default Links;
+  );
+}
