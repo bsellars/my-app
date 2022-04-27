@@ -1,5 +1,5 @@
 import React from "react";
-import PlayCircleFilledWhiteIcon from '@mui/icons-material/PlayCircleFilledWhite';
+import PlayCircleFilledWhiteIcon from "@mui/icons-material/PlayCircleFilledWhite";
 
 export default function Play(props) {
   const { handleClick } = props;
@@ -8,6 +8,5 @@ export default function Play(props) {
     <button className="player__button" onClick={() => handleClick()}>
       <PlayCircleFilledWhiteIcon fontSize="large" />
     </button>
-    
   );
 }

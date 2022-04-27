@@ -1,14 +1,16 @@
-import React from 'react'
+import React from "react";
+import Radio from "../components/radio/Radio";
+import Radioschedule from "../components/radio/schedule";
 
 const Stream = () => {
   return (
-    <div className='stream'>
-      <div className='backDrop'>
-    <h1>Stream</h1>
-    
+    <div className="stream">
+      <div className="backDrop">
+        <Radio />
+        <Radioschedule />
+      </div>
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default Stream
+export default Stream;

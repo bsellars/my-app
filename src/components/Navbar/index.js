@@ -1,49 +1,60 @@
 import React from 'react'
-import {
-  Nav,
-  NavLink,
-  Bars,
-  NavMenu,
-  NavBtn,
-  NavBtnLink
-} from './NavbarElements';
+import './App.css';
 
-const Navbar = () => {
+function App() {
   return (
-    <>
-    <div className='backDrop'>
-     <Nav className='navbar'>
-       <NavLink to="/">
-         <img height={120} src='https://www.tsilhqotin.ca/wp-content/uploads/2022/03/tsilhqotin_radio-removebg-preview-1.png' alt='TNG Radio'/><Bars />
-       </NavLink>
-       <Bars />
-       <NavMenu>
-         <NavLink to="/about" activeStyle>
-           About  
-         </NavLink>
-         <NavLink to="/Stream" activeStyle>
-           Steam  
-         </NavLink>
-         <NavLink to="/Links" activeStyle>
-           Links
-         </NavLink>
-         <NavLink to="/contactUs" activeStyle>
-           Contacts
-         </NavLink>
-         <NavLink to="/funders" activeStyle>
-           Funders
-         </NavLink>
-           
-         {/* 2nd nav */}
-         {/* <NavBtnLink to="/signin">Sign In</NavBtnLink> */}
-       </NavMenu>  
-       <NavBtn>
-         <NavBtnLink to="/signin">Sign In</NavBtnLink>
-       </NavBtn>
-     </Nav>   
-     </div>
-    </>
-  );
-};
+    <div>
+      <div className="nav">
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
 
-export default Navbar
+          <ul class="menu__box">
+            <li>
+              <a class="menu__item" href="/">
+                Home
+              </a>
+            </li>
+            <li>
+              <a class="menu__item" href="about">
+                About
+              </a>
+            </li>
+            <li>
+              <a class="menu__item" href="stream">
+                stream
+              </a>
+            </li>
+            <li>
+              <a class="menu__item" href="links">
+                Links
+              </a>
+            </li>
+            <li>
+              <a class="menu__item" href="contactUs">
+                Contact
+              </a>
+            </li>
+            <li>
+              <a class="menu__item" href='Funders'>
+                Funders
+              </a>
+            </li>
+          </ul>
+          <div className="nav__header">
+          <img
+               src="https://www.tsilhqotin.ca/wp-content/uploads/2022/03/tsilhqotin_radio-removebg-preview-1.png"
+               alt="TNG Radio"
+               className='logo'
+             />
+            Tŝilhqot’in Radio
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default App;

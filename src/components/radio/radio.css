@@ -10,7 +10,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
-  background-color: lightgray;
+  background-color: rgba(211, 211, 211, 0.5);
 }
 
 
@@ -68,36 +68,6 @@
   cursor: pointer;
 }
 
-/* .bar {
-  user-select: none;
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-
-.bar__time {
-  color: white;
-  font-size: 16px;
-}
-
-.bar__progress {
-  flex: 1;
-  border-radius: 5px;
-  margin: 0 20px;
-  height: 10px;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-}
-      
-.bar__progress__knob {
-  position: relative;
-  height: 16px;
-  width: 16px;
-  border: 1.5px solid white;
-  border-radius: 50%;
-  background-color: rgba(255,251,119,255);
-} */
     
 .player {
     flex-direction: column; 
@@ -111,9 +81,6 @@
   margin-top: 20px;
 }
 
-.bar {
-  width: 90%;
-  }
 }
 
 @media screen and (max-width: 500px) {

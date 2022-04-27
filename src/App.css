@@ -8,7 +8,7 @@ body {
   background-image: url(https://www.tsilhqotin.ca/wp-content/uploads/2021/08/tsilhqotin_hillside-scaled.jpg);
 }
 
-h1 {
+h1, h2 {
   margin-top: 0;
   padding: 10px;
 }
@@ -17,13 +17,22 @@ h1 {
   padding: 0;
   margin: 0;
   text-align: center;
-  min-height: calc( 100vh - 117px);
-  background: linear-gradient(90deg, rgba(2,0,36,0.7094188017003676) 0%, rgba(250,130,115,0.26404065043986347) 100%);
+  min-height: calc( 100vh - 71px);
+  background: linear-gradient(90deg, rgba(2,0,36,0.7570378493194152) 0%, rgba(210,47,27,0.4405112386751575) 100%);
+;
   ;
 }
 
 .active {
   color: orangered;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contact {
+  color: #fff;
 }
 
 .about {
@@ -41,15 +50,34 @@ h1 {
 
 .fundersLink:hover {
   color: #fff;
-  transition: 200ms ease-in;
+  transition: 200ms ease-in-out;
+}
+
+.Link {
+  text-decoration: none;
+  color: lightgray;
+  font-size: 30px;
+}
+
+.Link:hover {
+  color: #fff;
+  transition: 250ms ease-in-out;
+}
+
+.Links {
+  text-decoration: none;
+  color: lightgray;
+}
+
+.Links:hover {
+  color: #fff;
+  transition: 250ms ease-in-out;
 }
 
 html, body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* position: relative;
-  top: 300px; */
 }
 
 .footerLink{
@@ -59,7 +87,7 @@ html, body {
 
 .footerLink:hover {
   color: white;
-  transition: 200ms ease-in;
+  transition: 400ms ease-in-out;
 }
 
 .copyright {
